@@ -23,7 +23,7 @@ public class NumberGame {
                 int userGuess;
                 if (!scanner.hasNextInt()) {
                     System.out.println("Oops! That doesn't look like a number. Please try again.");
-                    scanner.next(); // Clear invalid input
+                    scanner.next(); 
                     continue;
                 }
 
